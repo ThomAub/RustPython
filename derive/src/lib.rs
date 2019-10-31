@@ -13,7 +13,7 @@ mod compile_bytecode;
 mod from_args;
 mod pyclass;
 
-use error::{extract_spans, Diagnostic};
+use error::{extract_spans, DiagResult, Diagnostic};
 use proc_macro::TokenStream;
 use proc_macro2::TokenStream as TokenStream2;
 use quote::ToTokens;

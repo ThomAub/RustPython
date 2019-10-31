@@ -173,3 +173,5 @@ impl ToTokens for Diagnostic {
         }
     }
 }
+
+pub type DiagResult<T> = Result<T, Diagnostic>;
